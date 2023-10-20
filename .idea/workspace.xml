@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be617f7d-07e8-4f6d-a0a7-1687e23749c9" name="Changes" comment="Realizado a configuração do projeto.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/payapp/page/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/payapp/RealizarLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/payapp/core/DriveFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/payapp/core/DriveFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/payapp/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/payapp/page/LoginPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +19,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,12 +65,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "criando-login-page",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.RealizarLoginTest">
+  <component name="RunManager" selected="Gradle.RealizarLoginTest.A_realizarLoginComDadosValidos">
     <configuration name="RealizarLoginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -76,6 +87,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;br.com.payapp.RealizarLoginTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="RealizarLoginTest.A_realizarLoginComDadosValidos" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;br.com.payapp.RealizarLoginTest.A_realizarLoginComDadosValidos&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -158,35 +193,13 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="payapp [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RealizarLoginTest.A_realizarLoginComDadosValidos" />
         <item itemvalue="Gradle.RealizarLoginTest" />
         <item itemvalue="Gradle.RealizarLoginTest.B_realizarLoginComDadosInvalidos" />
         <item itemvalue="Gradle.RealizarLoginTest.realizarLoginComDadosInvalidos" />
         <item itemvalue="Gradle.RealizarLoginTest.realizarLoginComDadosValidos" />
-        <item itemvalue="Gradle.payapp [test]" />
       </list>
     </recent_temporary>
   </component>
@@ -199,6 +212,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697650384183</updated>
       <workItem from="1697650385857" duration="283000" />
+      <workItem from="1697800737607" duration="2111000" />
     </task>
     <task id="LOCAL-00001" summary="Realizado a configuração do projeto.">
       <option name="closed" value="true" />
