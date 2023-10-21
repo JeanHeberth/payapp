@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be617f7d-07e8-4f6d-a0a7-1687e23749c9" name="Changes" comment="Realizado a configuração do projeto.">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/payapp/core/DriveFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/payapp/core/DriveFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/payapp/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/payapp/page/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/payapp/RealizarLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/payapp/RealizarLoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +43,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -59,20 +60,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Gradle.RealizarLoginTest.A_realizarLoginComDadosValidos">
+}</component>
+  <component name="RunManager" selected="Gradle.RealizarLoginTest.B_realizarLoginComDadosInvalidos">
     <configuration name="RealizarLoginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -195,9 +196,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RealizarLoginTest.B_realizarLoginComDadosInvalidos" />
         <item itemvalue="Gradle.RealizarLoginTest.A_realizarLoginComDadosValidos" />
         <item itemvalue="Gradle.RealizarLoginTest" />
-        <item itemvalue="Gradle.RealizarLoginTest.B_realizarLoginComDadosInvalidos" />
         <item itemvalue="Gradle.RealizarLoginTest.realizarLoginComDadosInvalidos" />
         <item itemvalue="Gradle.RealizarLoginTest.realizarLoginComDadosValidos" />
       </list>
@@ -213,6 +214,7 @@
       <updated>1697650384183</updated>
       <workItem from="1697650385857" duration="283000" />
       <workItem from="1697800737607" duration="2111000" />
+      <workItem from="1697826361742" duration="917000" />
     </task>
     <task id="LOCAL-00001" summary="Realizado a configuração do projeto.">
       <option name="closed" value="true" />

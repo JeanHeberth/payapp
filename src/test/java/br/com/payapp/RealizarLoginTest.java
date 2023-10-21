@@ -13,8 +13,6 @@ import static org.testng.Assert.*;
 
 public class RealizarLoginTest {
 
-    private static final Logger logger = LoggerFactory.getLogger(RealizarLoginTest.class);
-
     private DriveFactory driveFactory = new DriveFactory();
 
     private WebDriver driver;
@@ -25,7 +23,6 @@ public class RealizarLoginTest {
     void beforeMethod(){
         driver = driveFactory.setUp();
         loginPage = new LoginPage(driver);
-        logger.info("Executando testes!");
     }
 
     @AfterMethod
@@ -33,13 +30,13 @@ public class RealizarLoginTest {
         driveFactory.tearDown(driver);
     }
 
-    @Test(invocationCount = 5)
+    @Test
     public void A_realizarLoginComDadosValidos(){
         loginPage.realizarLogin("73752851104");
         assertTrue(loginPage.validarURL());
         loginPage.clicarNumeroCinco();
     }
-    @Test(invocationCount = 1)
+    @Test(invocationCount = 2)
     public void B_realizarLoginComDadosInvalidos(){
         loginPage.realizarLogin("222222222");
         assertEquals("CPF NÃO CADASTRADO", loginPage.validarCpfNaoEncontrado());

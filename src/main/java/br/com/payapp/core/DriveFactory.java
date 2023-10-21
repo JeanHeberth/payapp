@@ -3,8 +3,6 @@ package br.com.payapp.core;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
@@ -17,7 +15,7 @@ public class DriveFactory {
     @BeforeMethod
     public WebDriver setUp() {
         ChromeOptions chromeOptions = new ChromeOptions();
-//        chromeOptions.addArguments("--headless");
+        chromeOptions.addArguments("--headless");
         driver = new ChromeDriver(chromeOptions);
         driver.manage().window().maximize();
         driver.get("https://payapp.space/avaliadordemarcas/");
