@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be617f7d-07e8-4f6d-a0a7-1687e23749c9" name="Changes" comment="Realizado a configuração do projeto.">
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/payapp/core/DriveFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/payapp/core/DriveFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/payapp/RealizarLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/payapp/RealizarLoginTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="be617f7d-07e8-4f6d-a0a7-1687e23749c9" name="Changes" comment="Realizado a configuração do projeto." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -215,6 +212,7 @@
       <workItem from="1697650385857" duration="283000" />
       <workItem from="1697800737607" duration="2111000" />
       <workItem from="1697826361742" duration="917000" />
+      <workItem from="1697910218357" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="Realizado a configuração do projeto.">
       <option name="closed" value="true" />
