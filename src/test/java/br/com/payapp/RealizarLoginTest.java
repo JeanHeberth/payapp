@@ -2,9 +2,8 @@ package br.com.payapp;
 
 import br.com.payapp.core.DriveFactory;
 import br.com.payapp.page.LoginPage;
+import br.com.payapp.utils.SecretKey;
 import org.openqa.selenium.WebDriver;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -14,6 +13,7 @@ import static org.testng.Assert.*;
 public class RealizarLoginTest {
 
     private DriveFactory driveFactory = new DriveFactory();
+    SecretKey secretKey = new SecretKey();
 
     private WebDriver driver;
 
@@ -32,7 +32,7 @@ public class RealizarLoginTest {
 
     @Test
     public void A_realizarLoginComDadosValidos(){
-        loginPage.realizarLogin("73752851104");
+        loginPage.realizarLogin(secretKey.insereCPF());
         assertTrue(loginPage.validarURL());
         loginPage.clicarNumeroCinco();
     }
