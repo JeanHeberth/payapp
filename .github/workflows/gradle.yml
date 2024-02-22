@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           java-version: '17'
-#          distribution: 'corretto'
+          distribution: 'corretto'
 
 
       - name: Setup Gradle
@@ -25,6 +25,9 @@ jobs:
 
       - name: Build with Gradle Wrapper
         run: ./gradlew build
+
+      - name: Run tests with Gradle
+        run: ./gradlew test
 
 #
 #  dependency-submission:
