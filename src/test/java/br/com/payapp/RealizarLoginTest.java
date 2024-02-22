@@ -13,7 +13,6 @@ import static org.testng.Assert.*;
 public class RealizarLoginTest {
 
     private DriveFactory driveFactory = new DriveFactory();
-    SecretKey secretKey = new SecretKey();
 
     private WebDriver driver;
 
@@ -32,7 +31,7 @@ public class RealizarLoginTest {
 
     @Test
     public void A_realizarLoginComDadosValidos(){
-        loginPage.realizarLogin(secretKey.insereCPF());
+        loginPage.realizarLogin("73752851104");
         assertTrue(loginPage.validarURL());
         loginPage.clicarNumeroCinco();
     }
