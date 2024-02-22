@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be617f7d-07e8-4f6d-a0a7-1687e23749c9" name="Changes" comment="Implementando github actions.">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/gradle.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/gradle.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/payapp/RealizarLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/payapp/RealizarLoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="criando-actions" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,7 +80,7 @@
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "criando-actions",
+    "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/GitClone/payapp",
@@ -90,7 +91,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "settings.editor.selected.configurable": "terminal",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -256,7 +257,7 @@
       <workItem from="1698176798412" duration="646000" />
       <workItem from="1698325657908" duration="1258000" />
       <workItem from="1707921651706" duration="596000" />
-      <workItem from="1708631832821" duration="1745000" />
+      <workItem from="1708631832821" duration="3039000" />
     </task>
     <task id="LOCAL-00001" summary="Realizado a configuração do projeto.">
       <option name="closed" value="true" />
@@ -314,7 +315,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708633450795</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Implementando github actions.">
+      <option name="closed" value="true" />
+      <created>1708633615952</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708633615952</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Implementando github actions.">
+      <option name="closed" value="true" />
+      <created>1708633775286</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708633775286</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,5 +345,9 @@
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

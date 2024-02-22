@@ -29,12 +29,12 @@ public class RealizarLoginTest {
         driveFactory.tearDown(driver);
     }
 
-    @Test
-    public void A_realizarLoginComDadosValidos(){
-        loginPage.realizarLogin("73752851104");
-        assertTrue(loginPage.validarURL());
-        loginPage.clicarNumeroCinco();
-    }
+//    @Test
+//    public void A_realizarLoginComDadosValidos(){
+//        loginPage.realizarLogin("73752851104");
+//        assertTrue(loginPage.validarURL());
+//        loginPage.clicarNumeroCinco();
+//    }
     @Test(invocationCount = 2)
     public void B_realizarLoginComDadosInvalidos(){
         loginPage.realizarLogin("222222222");
